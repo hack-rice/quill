@@ -1,3 +1,13 @@
 // Branding overrides
 //
 // Copy variables from `_branding.scss` to this file to override default values.
+
+$primary: #60b2b2;
+$secondary: #FFC552;
+$tertiary: #BF6DFF;
+
+/** ASSET URLS
+ * login-bg: image for login splash page 
+ */
+
+$login-bg: url('https://s3.amazonaws.com/hackmit-assets/tintedphoto_1920_1080_low.jpg');
