@@ -32,6 +32,11 @@ var profile = {
     }
   },
 
+  major: String,
+  github: String,
+  website: String,
+  resume: String,
+
   description: {
     type: String,
     min: 0,
@@ -67,12 +72,6 @@ var confirmation = {
   wantsHardware: Boolean,
   hardware: String,
 
-  major: String,
-  github: String,
-  twitter: String,
-  website: String,
-  resume: String,
-
   needsReimbursement: Boolean,
   address: {
     name: String,
@@ -84,13 +83,6 @@ var confirmation = {
     country: String
   },
   receipt: String,
-
-  hostNeededFri: Boolean,
-  hostNeededSat: Boolean,
-  genderNeutral: Boolean,
-  catFriendly: Boolean,
-  smokingFriendly: Boolean,
-  hostNotes: String,
 
   notes: String,
 
