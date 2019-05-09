@@ -47,13 +47,13 @@ var profile = {
 
   hearInfo: {
     type: String,
-    min: 0;
+    min: 0,
     max: 300
   },
 
   prize: {
     type: String,
-    min: 0;
+    min: 0,
     max: 300
   },
 
