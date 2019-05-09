@@ -46,12 +46,6 @@ function calculateStats(){
       'L': 0,
       'XL': 0,
       'XXL': 0,
-      'WXS': 0,
-      'WS': 0,
-      'WM': 0,
-      'WL': 0,
-      'WXL': 0,
-      'WXXL': 0,
       'None': 0
     },
 
