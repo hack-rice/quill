@@ -122,21 +122,60 @@
 
         <div class="field">
           <label>
-              What would you like to learn or get out of HackMIT? (optional)
+              How many hackathons have you been to?
           </label>
-          <textarea ng-model="user.profile.essay">
+          <textarea ng-model="user.profile.hackNum">
           </textarea>
         </div>
 
-        <div class="field"
-             ng-hide="isMitStudent">
+        <div class="field">
+          <label>
+              How did you hear about HackRice?
+          </label>
+          <textarea ng-model="user.profile.hearInfo">
+          </textarea>
+        </div>
+
+        <div class="field">
+          <label>
+              What would be an awesome prize to win at HackRice?
+          </label>
+          <textarea ng-model="user.profile.prize">
+          </textarea>
+        </div>
+
+        <div class="field">
+          <label>
+              What do you want to learn from or get out of HackRice? Is there a project you’re excited to tackle? (1500 Character Limit)
+          </label>
+          <textarea ng-model="user.profile.learnEssay">
+          </textarea>
+        </div>
+
+        <div class="field">
+          <label>
+              Tell us about a project you’re proud of. What did you learn? What would you have done differently? (2500 Character Limit)
+          </label>
+          <textarea ng-model="user.profile.projectEssay">
+          </textarea>
+        </div>
+
+        <div class="field">
+          <label>
+              What’s something interesting about you that you didn’t include on your resume or in one of your links above? Be creative. (1000 Character Limit)
+          </label>
+          <textarea ng-model="user.profile.etcEssay">
+          </textarea>
+        </div>
+
+        <div class="field">
           <p>
-            Because of limitations imposed by MIT, we are not legally allowed to host
-            non-MIT minors (those under 18) for HackMIT 2015. Checking the box below affirms that you are or will be 18 years or older by September 19th, 2015.
+            Because of limitations imposed by Rice, we are not legally allowed to host
+            non-Rice minors (those under 18) for HackRice 9. Checking the box below affirms that you are, or will be, 18 years or older by September 20th, 2019. However, if you're under the age of 18, and you really want to attend HackRice 9, please stop filling out this form and email hack@rice.edu with the title "Minor HackRice 9 Application". We will then begin an alternative application process.
           </p>
           <p>
             <strong>
-            We will be checking ID. If you are a non-MIT minor, you will be turned away at the door.
+            We will be checking ID. If you are a non-Rice minor, you will be turned away at the door.
             </strong>
           </p>
           <div class="ui checkbox">

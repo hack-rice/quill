@@ -43,7 +43,7 @@ var profile = {
     max: 300
   },
 
-  hackNum: Number,
+  hackNum: String,
 
   hearInfo: {
     type: String,

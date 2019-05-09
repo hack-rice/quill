@@ -158,12 +158,52 @@
       </div>
 
       <div class="field">
-        <label>
-            What would you like to learn or get out of HackMIT? (optional)
-        </label>
-        <textarea ng-model="selectedUser.profile.essay">
-        </textarea>
-      </div>
+          <label>
+              How many hackathons have you been to?
+          </label>
+          <textarea ng-model="user.profile.hackNum">
+          </textarea>
+        </div>
+
+        <div class="field">
+          <label>
+              How did you hear about HackRice?
+          </label>
+          <textarea ng-model="user.profile.hearInfo">
+          </textarea>
+        </div>
+
+        <div class="field">
+          <label>
+              What would be an awesome prize to win at HackRice?
+          </label>
+          <textarea ng-model="user.profile.prize">
+          </textarea>
+        </div>
+
+        <div class="field">
+          <label>
+              What do you want to learn from or get out of HackRice? Is there a project you’re excited to tackle? (1500 Character Limit)
+          </label>
+          <textarea ng-model="user.profile.learnEssay">
+          </textarea>
+        </div>
+
+        <div class="field">
+          <label>
+              Tell us about a project you’re proud of. What did you learn? What would you have done differently? (2500 Character Limit)
+          </label>
+          <textarea ng-model="user.profile.projectEssay">
+          </textarea>
+        </div>
+
+        <div class="field">
+          <label>
+              What’s something interesting about you that you didn’t include on your resume or in one of your links above? Be creative. (1000 Character Limit)
+          </label>
+          <textarea ng-model="user.profile.etcEssay">
+          </textarea>
+        </div>
 
       <div class="field"
            ng-hide="isMitStudent">
