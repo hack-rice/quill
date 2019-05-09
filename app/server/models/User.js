@@ -43,10 +43,36 @@ var profile = {
     max: 300
   },
 
-  essay: {
+  hackNum: Number,
+
+  hearInfo: {
+    type: String,
+    min: 0;
+    max: 300
+  },
+
+  prize: {
+    type: String,
+    min: 0;
+    max: 300
+  },
+
+  learnEssay: {
     type: String,
     min: 0,
     max: 1500
+  },
+
+  projectEssay: {
+    type: String,
+    min: 0,
+    max: 2500
+  },
+
+  etcEssay: {
+    type: String,
+    min: 0,
+    max: 1000
   },
 
   // Optional info for demographics
