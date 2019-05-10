@@ -27,7 +27,7 @@
       }
 
       .button {
-        color: white;
+        color: $primary;
         &.login {
           background: $login-color;
         }
