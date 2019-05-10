@@ -229,16 +229,16 @@ angular.module('reg')
                 value: user.profile.graduationYear
               },{
                 name: 'Major',
-                value: user.confirmation.major
+                value: user.profile.major
               },{
                 name: 'Github',
-                value: user.confirmation.github
+                value: user.profile.github
               },{
                 name: 'LinkedIn',
-                value: user.confirmation.linkedin
+                value: user.profile.linkedin
               },{
                 name: 'Website',
-                value: user.confirmation.website
+                value: user.profile.website
               }
             ]
           },{
