@@ -34,6 +34,7 @@ var profile = {
 
   major: String,
   github: String,
+  linkedin: String,
   website: String,
   resume: String,
 

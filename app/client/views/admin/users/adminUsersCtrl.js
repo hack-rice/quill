@@ -228,11 +228,17 @@ angular.module('reg')
                 name: 'Graduation Year',
                 value: user.profile.graduationYear
               },{
-                name: 'Description',
-                value: user.profile.description
+                name: 'Major',
+                value: user.confirmation.major
               },{
-                name: 'Essay',
-                value: user.profile.essay
+                name: 'Github',
+                value: user.confirmation.github
+              },{
+                name: 'LinkedIn',
+                value: user.confirmation.linkedin
+              },{
+                name: 'Website',
+                value: user.confirmation.website
               }
             ]
           },{
@@ -247,50 +253,6 @@ angular.module('reg')
               },{
                 name: 'Shirt Size',
                 value: user.confirmation.shirtSize
-              },{
-                name: 'Major',
-                value: user.confirmation.major
-              },{
-                name: 'Github',
-                value: user.confirmation.github
-              },{
-                name: 'Website',
-                value: user.confirmation.website
-              },{
-                name: 'Needs Hardware',
-                value: user.confirmation.wantsHardware,
-                type: 'boolean'
-              },{
-                name: 'Hardware Requested',
-                value: user.confirmation.hardware
-              }
-            ]
-          },{
-            name: 'Hosting',
-            fields: [
-              {
-                name: 'Needs Hosting Friday',
-                value: user.confirmation.hostNeededFri,
-                type: 'boolean'
-              },{
-                name: 'Needs Hosting Saturday',
-                value: user.confirmation.hostNeededSat,
-                type: 'boolean'
-              },{
-                name: 'Gender Neutral',
-                value: user.confirmation.genderNeutral,
-                type: 'boolean'
-              },{
-                name: 'Cat Friendly',
-                value: user.confirmation.catFriendly,
-                type: 'boolean'
-              },{
-                name: 'Smoking Friendly',
-                value: user.confirmation.smokingFriendly,
-                type: 'boolean'
-              },{
-                name: 'Hosting Notes',
-                value: user.confirmation.hostNotes
               }
             ]
           },{
