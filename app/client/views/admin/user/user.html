@@ -161,24 +161,30 @@
           <label>
               How many hackathons have you been to?
           </label>
-          <textarea ng-model="selectedUser.profile.hackNum">
-          </textarea>
+          <input type="text"
+                 name="hackNum"
+                 placeholder="17"
+                 ng-model="selectedUser.profile.hackNum">
         </div>
 
         <div class="field">
           <label>
               How did you hear about HackRice?
           </label>
-          <textarea ng-model="selectedUser.profile.hearInfo">
-          </textarea>
+          <input type="text"
+                 name="hear"
+                 placeholder="the MLH website"
+                 ng-model="selectedUser.profile.hearInfo">
         </div>
 
         <div class="field">
           <label>
               What would be an awesome prize to win at HackRice?
           </label>
-          <textarea ng-model="selectedUser.profile.prize">
-          </textarea>
+          <input type="text"
+                 name="prize"
+                 placeholder="Nintendo Switch"
+                 ng-model="selectedUser.profile.prize">
         </div>
 
         <div class="field">
