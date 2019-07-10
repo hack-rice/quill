@@ -177,6 +177,7 @@
               <p>
                 So that we can process your reimbursement faster, please name your receipt: <strong>{{fileName}}</strong>
               </p>
+              <input type="hidden" name="receipt" ng-model="user.confirmation.receipt" value="{{fileName}}">
               <a
                 target="_blank"
                 href="https://www.dropbox.com/request/AUyZH9CxhfkkCHMPUg70"
