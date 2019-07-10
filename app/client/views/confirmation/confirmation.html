@@ -64,35 +64,7 @@
               <option value="L">Unisex Large</option>
               <option value="XL">Unisex X-Large</option>
               <option value="XXL">Unisex XX-Large</option>
-              <option value="WXS">Women's X-Small</option>
-              <option value="WS">Women's Small</option>
-              <option value="WM">Women's Medium</option>
-              <option value="WL">Women's Large</option>
-              <option value="WXL">Women's X-Large</option>
-              <option value="WXXL">Women's XX-Large</option>
             </select>
-          </div>
-
-          <div class="field">
-            <label>
-              Will you be needing hardware?
-            </label>
-            <div class="ui checkbox">
-              <input type="checkbox" ng-model="user.confirmation.wantsHardware">
-              <label> Yes, I would like to use hardware in my hack. </label>
-            </div>
-          </div>
-
-          <div
-            class="field"
-            ng-show="user.confirmation.wantsHardware">
-            <label>
-              What kind of hardware would be useful for you?
-            </label>
-            <p>
-              We will have a hardware checkout, and we'll try our best to provide things that would be useful to you - however, we can't guarantee everything. We will publish a list of available hardware closer to the day of the event.
-            </p>
-            <input type="text" ng-model="user.confirmation.hardware">
           </div>
 
           <br>
@@ -120,6 +92,19 @@
               <input type="checkbox" ng-model="user.confirmation.needsReimbursement">
               <label> I will be needing travel reimbursement. </label>
             </div>
+          </div>
+
+          <div class="field"
+               ng-show="user.confirmation.needsReimbursement">
+            <label> How will you be travelling? </label>
+            <select
+                    name="travelMethod"
+                    ng-model="user.confirmation.travelMethod">
+              <option value="">Travel Method</option>
+              <option value="Car">Car</option>
+              <option value="Plane">Plane</option>
+              <option value="Bus">Bus</option>
+            </select>
           </div>
 
           <div
@@ -194,7 +179,7 @@
               </p>
               <a
                 target="_blank"
-                href="https://go.hackmit.org/travel-receipts"
+                href="https://www.dropbox.com/request/AUyZH9CxhfkkCHMPUg70"
                 class="ui pink button">
                 Upload Receipt
               </a>

@@ -260,7 +260,7 @@
 
       <div class="field">
         <label> Shirt Size </label>
-        <input type="text" ng-model="selectedUser.profile.shirtSize" />
+        <input type="text" ng-model="selectedUser.confirmation.shirtSize" />
       </div>
 
       <div class="ui divider"></div>
@@ -298,6 +298,11 @@
           ng-if="!selectedUser.confirmation.needsReimbursement"
           class="red remove circle icon">
         </i>
+      </div>
+
+      <div class="field">
+        <label> Travel Method </label>
+        <input type="text" ng-model="selectedUser.confirmation.travelMethod" />
       </div>
 
       <div class="field">

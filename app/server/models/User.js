@@ -113,6 +113,8 @@ var confirmation = {
 
   notes: String,
 
+  travelMethod: String,
+
   signatureLiability: String,
   signaturePhotoRelease: String,
   signatureCodeOfConduct: String,
