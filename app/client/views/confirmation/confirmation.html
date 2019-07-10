@@ -115,7 +115,9 @@
             </div>
 
             <p>
-              Travel reimbursement is processed and sent by check after the event. To expedite the reimbursement process and ensure that you receive your reimbursement as quickly as possible, make sure that your mailing address is accurate and you upload your receipts.
+              Travel reimbursement is processed and handled after the event. To expedite the reimbursement process and
+              ensure that you receive your reimbursement as quickly as possible, make sure that your mailing address is
+              accurate and that you upload your receipts.
             </p>
 
             <div class="field">
@@ -177,7 +179,7 @@
               <p>
                 So that we can process your reimbursement faster, please name your receipt: <strong>{{fileName}}</strong>
               </p>
-              <input type="hidden" name="receipt" ng-model="user.confirmation.receipt" value="{{fileName}}">
+              <input type="hidden" name="receipt" ng-model="user.confirmation.receipt" [value]="fileName">
               <a
                 target="_blank"
                 href="https://www.dropbox.com/request/AUyZH9CxhfkkCHMPUg70"
