@@ -20,6 +20,9 @@ angular.module('reg')
 
       $scope.fileName = user._id + "_" + user.profile.name.split(" ").join("_");
 
+      // set the receipt in the model
+      user.confirmation.receipt = $scope.fileName;
+
       // -------------------------------
       // All this just for dietary restriction checkboxes fml
 
