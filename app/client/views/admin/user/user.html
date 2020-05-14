@@ -288,7 +288,7 @@
         Travel
       </div>
 
-      <div class="field">
+<!--       <div class="field">
         <strong> Needs Reimbursement</strong>
         <i
           ng-if="selectedUser.confirmation.needsReimbursement"
@@ -298,12 +298,12 @@
           ng-if="!selectedUser.confirmation.needsReimbursement"
           class="red remove circle icon">
         </i>
-      </div>
+      </div> -->
 
-      <div class="field">
+<!--       <div class="field">
         <label> Travel Method </label>
         <input type="text" ng-model="selectedUser.confirmation.travelMethod" />
-      </div>
+      </div> -->
 
       <div class="field">
         <label>Full Name</label>
@@ -360,9 +360,17 @@
       </div>
 
       <div class="field">
+          <label> Snacks suggestion </label>
+          <input
+            type="text"
+            name="snacks"
+            ng-model="selectedUser.confirmation.snacks">
+        </div>
+
+<!--       <div class="field">
         <label> Receipt </label>
         <input type="url" ng-model="selectedUser.confirmation.receipt" />
-      </div>
+      </div> -->
 
       <div class="field">
         <label> Additional Notes </label>

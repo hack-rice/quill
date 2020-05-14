@@ -109,6 +109,7 @@ var confirmation = {
     zip: String,
     country: String
   },
+  snacks: String,
   receipt: String,
 
   notes: String,

@@ -31,7 +31,7 @@
               If your restriction is not included here, please let us know in the additional notes at the bottom.
             </p>
             <p>
-              We'll make sure you get fed
+              We'll make sure you get fed (remotely too) :)
             </p>
 
           </div>
@@ -74,9 +74,9 @@
 
           <div class="field">
             <p>
-              As a reminder, our reimbursement policy is as follows:
+              Since we will be conducting HackRice X remotely for hackers outisde of Houston, we will not make any travel reimbursements.
             </p>
-            <ul>
+<!--             <ul>
               <li><b> You must come to HackRice and submit a project on devpost to receive reimbursement. </b></li>
               <li><b> You must submit your receipts by October 23, 2020. </b></li>
               <li><b>
@@ -96,17 +96,17 @@
               <ul>
                 <li> All gas money up to $125 </li>
               </ul>
-            </ul>
+            </ul> -->
           </div>
 
-          <div class="field">
+<!--           <div class="field">
             <label> Will you be needing travel reimbursement? </label>
             <div class="ui checkbox">
               <input type="checkbox" ng-model="user.confirmation.needsReimbursement">
               <label> I will be needing travel reimbursement. </label>
             </div>
-          </div>
-
+          </div> -->
+<!-- 
           <div class="field"
                ng-show="user.confirmation.needsReimbursement">
             <label> How will you be travelling? </label>
@@ -118,7 +118,7 @@
               <option value="Plane">Plane</option>
               <option value="Bus">Bus</option>
             </select>
-          </div>
+          </div> -->
 
           <div
             ng-show="user.confirmation.needsReimbursement">
@@ -128,9 +128,7 @@
             </div>
 
             <p>
-              Travel reimbursement is processed and handled after the event. To expedite the reimbursement process and
-              ensure that you receive your reimbursement as quickly as possible, make sure that your mailing address is
-              accurate and that you upload your receipts.
+              Though we cannot see you in-person, you will still receive a care package that includes the HackRice X t-shirt and some delicious snacks! Please enter your mailing address so we can deliver the care packages promptly.
             </p>
 
             <div class="field">
@@ -188,6 +186,13 @@
             </div>
 
             <div class="field">
+              <label>Snacks suggestion</label>
+              <input type="text"
+                     name="snacks"
+                     ng-model="user.confirmation.snacks">
+            </div>
+
+<!--             <div class="field">
               <label> Travel Receipt </label>
               <p>
                 So that we can process your reimbursement faster, please name your receipt: <strong>{{fileName}}</strong>
@@ -198,7 +203,7 @@
                 class="ui pink button">
                 Upload Receipt
               </a>
-            </div>
+            </div> -->
 
           </div>
 
