@@ -10,7 +10,7 @@ User
     email: ADMIN_EMAIL
   })
   .exec(function(err, user){
-    //if (!user){
+    if (!user){
       var u = new User();
       u.email = ADMIN_EMAIL;
       u.password = User.generateHash(ADMIN_PASSWORD);
@@ -21,5 +21,5 @@ User
           console.log(err);
         }
       });
-    //}
+    }
   });
